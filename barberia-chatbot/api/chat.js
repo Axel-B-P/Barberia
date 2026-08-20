@@ -34,7 +34,7 @@ const SYSTEM_PROMPT =
   "Usá **negrita** con doble asterisco para resaltar datos clave como horarios, " +
   "precios o nombres de servicios. Sé breve y cordial en tus respuestas.";
 
-const MODEL = "llama-3.1-8b-instant";
+const  MODEL = "openai/gpt-oss-20b";
 const GROQ_ENDPOINT = "https://api.groq.com/openai/v1/chat/completions";
 
 function normalize(str) {
