@@ -1,0 +1,12 @@
+{
+  "name": "barberia-chatbot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Chatbot de la Barbería El Corte con la API de Groq, listo para Vercel.",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
