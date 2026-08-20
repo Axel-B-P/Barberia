@@ -11,10 +11,8 @@ navegador.
 barberia-chatbot/
 ├── api/
 │   └── chat.js       ← función serverless: filtra por keywords y llama a Groq
-├── public/
-│   └── index.html    ← frontend estático (sin API key ni keywords visibles)
+├── index.html         ← frontend estático (sin API key ni keywords visibles)
 ├── package.json
-├── vercel.json
 └── .env.example
 ```
 
